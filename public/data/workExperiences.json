@@ -1,0 +1,22 @@
+[
+  {
+    "startDate": "31/12/2022",
+    "endDate": "1/1/2021",
+    "companyName": "SAP",
+    "jobRole": "Full-stack developer",
+    "duration": "12 Months",
+    "description": [
+      {
+        "info": ""
+      },
+      {
+        "info": ""
+      },
+      {
+        "info": ""
+      }
+    ],
+    "companyLogo": "/images/companies/sap-logo.png",
+    "companyLink": "https://me.sap.com/"
+  }
+]

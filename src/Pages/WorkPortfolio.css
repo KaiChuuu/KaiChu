@@ -1,0 +1,120 @@
+.WorkPortfolio {
+  background-color: #f9f7f5;
+
+  .work-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 10%;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #588abb;
+    top: 0;
+    bottom: 0;
+    margin-left: -3px;
+  }
+
+  .timeline-spacer {
+    padding: 50px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 90%;
+  }
+
+  .job-section {
+    display: flex;
+  }
+
+  .job-logo {
+    width: 10%;
+    position: relative;
+  }
+
+  .date {
+    position: relative;
+    top: -17px;
+    left: 15px;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 8px;
+    background-color: #b1cee8;
+    border-bottom: 1.5px solid white;
+    top: 0px;
+    z-index: 1;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -18px;
+  }
+  
+  .job-container {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .job-duration {
+    margin-left: auto;
+  }
+
+  .job-content {
+    position: relative;
+    left: 200px;
+    display: flex;
+  }
+
+  /* The actual content */
+  .content {
+    padding: 50px;
+    background-color: white;
+    border-radius: 6px;
+    transition: all 400ms ease;
+    box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.2);
+  }
+  .content:hover {
+    transform: translateY(-7px);
+  }
+
+  .company-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 70px;
+    background-color: white;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: all 400ms ease;
+    box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.2);
+  }
+  .company-logo-container:hover {
+    transform: translateY(-7px);
+  }
+
+  .company-logo {
+    width: 250px;
+  }
+}

@@ -1,0 +1,16 @@
+.Footer {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    padding: 10px 0px 20px;
+  }
+
+  .reference-link {
+    color: #588abb;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+}
