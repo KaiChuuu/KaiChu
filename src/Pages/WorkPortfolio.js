@@ -2,6 +2,7 @@ import './WorkPortfolio.css';
 import { useEffect, useState } from "react";
 
 import Header from "../Components/Header";
+import PortfolioRedirects from '../Components/PortfolioRedirects';
 import Footer from "../Components/Footer";
 
 function WorkPortfolio() {
@@ -25,7 +26,7 @@ function WorkPortfolio() {
     <div className="WorkPortfolio">
       <Header/>
       
-      <div className="work-container">
+      <div className="workportfolio-container">
         <div className="timeline">
           {workExperience.map((experience, index) => (
             <div index={index}>
@@ -67,6 +68,8 @@ function WorkPortfolio() {
           ))}
         </div>
       </div>
+
+      <PortfolioRedirects />
 
       <Footer/>
     </div>

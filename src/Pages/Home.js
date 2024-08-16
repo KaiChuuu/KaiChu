@@ -1,11 +1,11 @@
 import './Home.css';
 import { useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
 
 import Header from "../Components/Header";
 import haloBg from "../Assets/halo-bg.jpg";
 import kaiImg from "../Assets/kai-image.jpg";
 import Footer from "../Components/Footer";
+import PortfolioRedirects from "../Components/PortfolioRedirects";
 
 function Home() {
   const [certifications, setCertifications] = useState([]);
@@ -80,23 +80,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="portfolio-container">
-        <div className="portfolio-title section-title">
-          LEARN ABOUT ME
-        </div>
-        <div className="portfolio-links">
-          <Link to="/game-portfolio" className="nav-links">
-            <div className="game-portfolio-container">
-              GAME PORTFOLIO
-            </div>
-          </Link>
-          <Link to="/work" className="nav-links">
-            <div className="work-container">
-              WORK
-            </div>
-          </Link>
-        </div>
-      </div>
+      <PortfolioRedirects />
 
       <Footer />
     </div>

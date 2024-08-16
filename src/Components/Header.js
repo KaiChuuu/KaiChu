@@ -35,12 +35,12 @@ function Header() {
           </div>
           <div className="end-container">
             <div className="end-col">
-              <Link to="/work" className="navbar-link">
+              <Link to="/game-portfolio" className="navbar-link">
                 GAME PORTFOLIO
               </Link>
             </div>
             <div className="end-col">
-              <Link to="/game-portfolio" className="navbar-link">
+              <Link to="/work" className="navbar-link">
                 WORK
               </Link>
             </div>
