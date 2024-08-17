@@ -8,7 +8,7 @@ import GamePortfolio from './Pages/GamePortfolio';
 import WorkPortfolio from './Pages/WorkPortfolio';
 import ScrollToTop from './Components/ScrollToTop';
 
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +21,7 @@ root.render(
             <Route path="/" element={<Home/>} />
             <Route path="/game-portfolio" element={<GamePortfolio/>} />
             <Route path="/work" element={<WorkPortfolio/>} />
-            <Route path="*" element={<Home/>} />
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </Router>
       </React.StrictMode>
