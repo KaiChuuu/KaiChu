@@ -36,6 +36,7 @@ function Home() {
             <div className="dynamic-role">Game Developer...</div>
           </div>
         </div>
+        <div className="scroll-text">SCROLL DOWN</div>
         <img src={haloBg} alt="halo-bg" className="halo-image" />
       </div>
 

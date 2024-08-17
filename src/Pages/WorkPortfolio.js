@@ -33,12 +33,12 @@ function WorkPortfolio() {
               <div className="timeline-spacer"></div>
 
               <div className="container right">
-                <div className="date">{experience.startDate}</div>
+                <div className="date">{experience.endDate}</div>
                 <div className="job-content">
                   <div className="content">
                     <div className="job-container">
                       <div className="job-header">
-                        <div className="job-title job-section-title">{experience.companyName}</div>
+                        <div className="job-title content-section-title">{experience.companyName}</div>
                         <div className="job-position">{experience.jobRole}</div>
                       </div>
                       <div className="job-duration">{experience.duration}</div>
@@ -56,13 +56,13 @@ function WorkPortfolio() {
                   
                   <div className="company-logo-container">
                     <a alt="" href={experience.companyLink} target="_blank" rel="noopener noreferrer">
-                      <img className="company-logo" src={experience.companyLogo}></img>
+                      <img alt="" className="company-logo" src={experience.companyLogo}></img>
                     </a>
                   </div>
                 </div>
               </div>
               <div className="container right">
-                <div className="date">{experience.endDate}</div>
+                <div className="date">{experience.startDate}</div>
               </div>
             </div>
           ))}

@@ -1,19 +1,140 @@
 [
   {
-    "startDate": "",
-    "endDate": "",
-    "gameName": "",
-    "gameResources": "",
+    "startDate": "1/11/2023",
+    "endDate": "31/11/2023",
+    "gameName": "Game Jam 2023",
+    "gameResources": "Unity, C#",
+    "duration": "1 Month",
+    "description": [
+      {
+        "info": "I participated in GitHub's Game Jam 2023, where I developed a top-down survival game based on the theme 'SCALE'."
+      },
+      {
+        "info": "The game, titled Overtime, challenges players to survive as long as possible while defeating waves of ninjas."
+      },
+      {
+        "info": "It features 5 unique stages, 5 different items, and 7 distinct enemies. I was responsible for designing all the models, textures, UI, and animations, as well as creating the background music."
+      }
+    ],
+    "itchioLink": "https://happyteam.itch.io/overtime",
+    "githubLink": "https://github.com/KaiChuuu/Overtime",
+    "gameImg": "/images/games/overtime-logo.jpg",
+    "imageMinWidth": "250px"
+  },
+  {
+    "startDate": "3/5/2023",
+    "endDate": "12/5/2023",
+    "gameName": "Asteroid Game Recreation",
+    "gameResources": "SFML, C++",
     "duration": "",
     "description": [
       {
-        "info": ""
+        "info": "Asteroids was my second project using SFML, where I set out to recreate the classic Atari Asteroids game."
+      },
+      {
+        "info": "A standout feature of this project was the scalable approach I implemented for rendering models. Rather than manually managing render lists in the main file, I developed a WindowManager class to handle the priority, activity, and rendering of models. This approach significantly helped reduce the load on other components within the game."
       }
     ],
-    "itchioLink": "",
-    "githubLink": "",
-    "gameImg": "1 image or gif only",
-    "isGIF": false,
-    "gifLink": ""
+    "itchioLink": "https://happyteam.itch.io/asteroids-game-remake",
+    "githubLink": "https://github.com/KaiChuuu/Asteroids-Game-Recreation",
+    "gameImg": "https://media.giphy.com/media/WItEjASFX6fhe9gsUY/giphy.gif",
+    "imageMinWidth": "500px"
+  },
+  {
+    "startDate": "1/4/2023",
+    "endDate": "3/5/2023",
+    "gameName": "Temple Run Remake",
+    "gameResources": "Unity, C#",
+    "duration": "1 Month",
+    "description": [
+      {
+        "info": "My Temple Run remake is an effort to faithfully recreate the original game in Unity."
+      },
+      {
+        "info": "This project showcases a wide range of Unity features, including sound, animation, UI, cutscenes, and more."
+      },
+      {
+        "info": "I also took on level design, crafting multiple stage paths using prebuilt assets, designing coin trails, and creating background environments."
+      },
+      {
+        "info": "Additionally, I optimized asset sizes and formats to ensure smooth performance in WebGL."
+      }
+    ],
+    "itchioLink": "https://happyteam.itch.io/temple-run-remake",
+    "githubLink": "https://github.com/KaiChuuu/Temple-Run-Remake-Scripts",
+    "gameImg": "https://media.giphy.com/media/J7rlyDa8zIwyq88SC6/giphy-downsized-large.gif",
+    "imageMinWidth": "350px"
+  },
+  {
+    "startDate": "1/3/2023",
+    "endDate": "15/3/2023",
+    "gameName": "Dinosaur Game Remake",
+    "gameResources": "SFML, C++",
+    "duration": "",
+    "description": [
+      {
+        "info": "The Dinosaur game was my first project using SFML, where I recreated the classic Google Dinosaur game."
+      },
+      {
+        "info": "Unlike working with game engines like Unity, this project allowed me to build a more fundamental application, developing custom code for features such as object collision and movement."
+      },
+      {
+        "info": "I also worked with UV texture coordinates to animate sprites from sprite sheets."
+      }
+    ],
+    "itchioLink": "https://happyteam.itch.io/dinosaur-game-remake",
+    "githubLink": "https://github.com/KaiChuuu/Dinosaur-Game-Recreation",
+    "gameImg": "https://media.giphy.com/media/UwXWVbt9wvlSM4P5FV/giphy.gif",
+    "imageMinWidth": "500px"
+  },
+  {
+    "startDate": "1/12/2022",
+    "endDate": "12/1/2023",
+    "gameName": "PolyPop",
+    "gameResources": "Unity, C#",
+    "duration": "1 Month",
+    "description": [
+      {
+        "info": "PolyPop is a top-down shooter where the goal is to survive for as long as possible. It’s my first solo project created in Unity"
+      },
+      {
+        "info": "The game includes classic app features like a minimap, scoreboard, and shop."
+      },
+      {
+        "info": "I applied various development design steps to guide the project, from defining game features to organizing my work with game design documents and UML diagrams."
+      },
+      {
+        "info": "I also began using Blender to create low-poly models for the game's environment and stages."
+      }
+    ],
+    "itchioLink": null,
+    "githubLink": "https://github.com/KaiChuuu/polypop",
+    "gameImg": "https://media.giphy.com/media/fCMxLpIMls0xB5yBfs/giphy.gif",
+    "imageMinWidth": "500px"
+  },
+  {
+    "startDate": "0/0/2020",
+    "endDate": "19/10/2020",
+    "gameName": "Fall Ball",
+    "gameResources": "Unity, C#",
+    "duration": "",
+    "description": [
+      {
+        "info": "FallBall is an endless mobile arcade game where the objective is to keep a falling ball alive for as long as possible."
+      },
+      {
+        "info": "Developed in collaboration with a close friend back in 2020, this was my first ever game."
+      },
+      {
+        "info": "Through this project, I gained experience with Unity and Unity Remote 5, and learned the entire process of publishing a game on the Google Play Store."
+      },
+      {
+        "info": "We created over 23 unique maps with 3 different difficulty stages and added various features, including animations, music, and advertisements within Unity."
+      }
+    ],
+    "itchioLink": null,
+    "githubLink": "https://github.com/KaiChuuu/Fall-Ball",
+    "gameImg": "/images/games/fallball-logo.png",
+    "imageMinWidth": "250px"
   }
 ]
