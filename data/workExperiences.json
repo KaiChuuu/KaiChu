@@ -1,0 +1,74 @@
+[
+  {
+    "startDate": "1/1/2022",
+    "endDate": "31/12/2022",
+    "companyName": "SAP",
+    "jobRole": "Full-stack developer",
+    "duration": "12 Months",
+    "description": [
+      {
+        "info": "During my year at SAP, I worked as a full-stack developer focused on both frontend UI and backend API development for Partner dashboards within SAPForMe."
+      },
+      {
+        "info": "My frontend work utilized Fiori 3 and SAP UI5 Evolution to create human-centered designs, while my backend efforts involved building event-driven APIs with Vert.x to extract and convert satellite data into usable JSON data."
+      },
+      {
+        "info": "My responsibilities also included generating mock data, writing comprehensive JUnit tests, and performing full E2E testing."
+      },
+      {
+        "info": "Among my key achievements were the completion of two major deliverables in 2022, specifically the Solex and Partner Competencies dashboards."
+      },
+      {
+        "info": "I also led the E2E testing framework for partner dashboards, establishing interaction tests for functionality verification in the staging environment."
+      },
+      {
+        "info": "Additionally, as the sole developer in the NA timezone, I managed on-call duties, resolving deployment issues, pipeline challenges, and debugging across the team’s projects."
+      }
+    ],
+    "companyLogo": "/images/companies/sap-logo.png",
+    "companyLink": "https://me.sap.com/"
+  },
+  {
+    "startDate": "1/2/2021",
+    "endDate": "31/9/2021",
+    "companyName": "ArcadeQuest",
+    "jobRole": "Software Engineer",
+    "duration": "8 Months",
+    "description": [
+      {
+        "info": "In the past, ArcadeQuest was a virtual arcade where players competed in tournaments to win prizes."
+      },
+      {
+        "info": "As a software engineer, I developed a system architecture to manage client requests for Fortnite custom lobby tournaments. I used Amazon services to route traffic across EC2 instances, supporting over 100 Fortnite AI clients, with a focus on scalability and efficient bot usage. I also created the AI clients in Python that connected to Epic Games APIs, facilitating secure and custom matches."
+      },
+      {
+        "info": "Additionally, I contributed to designing frontend components in AdobeXD and worked on the development for the mobile app's administration, login, and signup pages."
+      }
+    ],
+    "companyLogo": "/images/companies/aq-logo.png",
+    "companyLink": null
+  },
+  {
+    "startDate": "0/0/2021",
+    "endDate": "0/0/2024",
+    "companyName": "Vancouver Japanese Gardeners Association",
+    "jobRole": "Web Developer and Designer",
+    "duration": "",
+    "description": [
+      {
+        "info": "VJGA is a non-profit organization supporting Japanese gardeners across Vancouver."
+      },
+      {
+        "info": "I've had the privilege of designing and developing their website for over four years, during which I've created three versions, each refining my web design and development skills to improve user experience and better capture the work of Japanese gardeners throughout Vancouver."
+      },
+      {
+        "info": "The current website is specifically designed for Japanese users and is mobile-friendly. It has also been optimized for performance through compression and proper file resizing."
+      },
+      {
+        "info": "I also focused on making the site easily maintainable and scalable, allowing non-developers to update content easily. This ensures long-term sustainability and ease of future maintenance for administrators."
+      }
+    ],
+    "companyLogo": "/images/companies/vjga-logo.png",
+    "companyLink": "https://www.vanjapangardeners.com/"
+  }
+]

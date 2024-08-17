@@ -1,0 +1,12 @@
+[
+  {
+    "name": "CPA - C++ Certified Assoiate Programmer",
+    "image": "/images/certifications/cpa-21-02-cpa-c-certified-associate-programmer.png",
+    "link": "https://www.credly.com/badges/596af324-951f-4d4f-a57d-c6e4a1c70656/public_url"
+  },
+  {
+    "name": "AWS Certified Cloud Practitioner",
+    "image": "/images/certifications/aws-certified-cloud-practitioner.png",
+    "link": "https://www.credly.com/badges/788fc21c-7a4a-46a3-90a7-5a634a2aebae/public_url"
+  }
+]

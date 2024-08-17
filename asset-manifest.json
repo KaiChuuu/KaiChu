@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/KaiChu/static/css/main.efff1851.css",
+    "main.js": "/KaiChu/static/js/main.f83b92bb.js",
+    "static/media/halo-bg.jpg": "/KaiChu/static/media/halo-bg.584a7a0236c2610a9877.jpg",
+    "static/media/FiraCode.ttf": "/KaiChu/static/media/FiraCode.195a5963e89a1ff0cf03.ttf",
+    "static/media/halo-bg-rocks.jpg": "/KaiChu/static/media/halo-bg-rocks.ca4d48520a84b31dd5df.jpg",
+    "static/media/halo-bg-mountain-lg.jpg": "/KaiChu/static/media/halo-bg-mountain-lg.3f9ec0e586f781c966b0.jpg",
+    "static/media/halo-bg-tower.jpg": "/KaiChu/static/media/halo-bg-tower.55457ba410a306ad53b0.jpg",
+    "static/media/halo-bg-mountains.jpg": "/KaiChu/static/media/halo-bg-mountains.5fd5a1c49fb0edc7cb42.jpg",
+    "static/media/kai-image.jpg": "/KaiChu/static/media/kai-image.31dc8da5b19854eb8e55.jpg",
+    "static/media/halo-bg-sky.jpg": "/KaiChu/static/media/halo-bg-sky.86a311caa8853321e3db.jpg",
+    "index.html": "/KaiChu/index.html",
+    "main.efff1851.css.map": "/KaiChu/static/css/main.efff1851.css.map",
+    "main.f83b92bb.js.map": "/KaiChu/static/js/main.f83b92bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efff1851.css",
+    "static/js/main.f83b92bb.js"
+  ]
+}
