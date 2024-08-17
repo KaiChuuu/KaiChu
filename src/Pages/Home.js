@@ -8,6 +8,10 @@ import Footer from "../Components/Footer";
 import PortfolioRedirects from "../Components/PortfolioRedirects";
 import TypingEffect from '../Components/TypingEffect';
 
+import githubLogo from "../Assets/Icons/github-logo.png";
+import itchioLogo from "../Assets/Icons/itchio-logo.png";
+import linkedinLogo from "../Assets/Icons/linkedin-logo.png";
+
 function Home() {
   const [certifications, setCertifications] = useState([]);
 
@@ -42,6 +46,11 @@ function Home() {
           </div>
         </div>
         <div className="scroll-text">SCROLL DOWN</div>
+        <div className="icon-container">
+          <a href="https://github.com/KaiChuuu" alt="" target="_blank" rel="noopener noreferrer"><img alt="" className="logo-img logo-spacer logo-animation" src={githubLogo}></img></a>  
+          <a href="https://happyteam.itch.io/" alt="" target="_blank" rel="noopener noreferrer"><img alt="" className="itchio-logo logo-spacer logo-animation" src={itchioLogo}></img></a>
+          <a href="https://www.linkedin.com/in/kai-chu-b482541b0/" alt="" target="_blank" rel="noopener noreferrer"><img alt="" className="linkedin-logo logo-img logo-animation" src={linkedinLogo}></img></a>
+        </div>
         <img src={haloBg} alt="halo-bg" className="halo-image" />
       </div>
 

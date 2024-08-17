@@ -8,6 +8,42 @@
     height: 80svh;
   }
 
+  .icon-container {
+    position: absolute;
+    bottom: 70px;
+    right: 100px;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-spacer {
+    margin-right: 18px;
+  }
+
+  .itchio-logo {
+    background-color: pink;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .linkedin-logo {
+    width: 51px;
+    height: 46px;
+    padding: 2.5px 5px;
+  }
+
+  .logo-animation {
+    transition: all 400ms ease;
+  }
+  .logo-animation:hover {
+    transform: translateY(-2px);
+  }
+
   .halo-image {
     display: block;
     width: 100%;
@@ -59,6 +95,7 @@
     display: flex;
     margin-top: 25px;
     align-items: center;
+    margin-bottom: 50px;
   }
 
   .dynamic-role {
