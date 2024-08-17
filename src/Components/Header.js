@@ -29,23 +29,23 @@ function Header() {
       <div className={`active ${show && 'hidden'}`}>
         <div className="nav-container">
           <div className="start-container">
-            <Link to="/KaiChu" className="default-text-style">
+            <Link to="/" className="default-text-style">
               KAI CHU
             </Link>
           </div>
           <div className="end-container">
             <div className="end-col">
-              <Link to="/KaiChu/game-portfolio" className="navbar-link">
+              <Link to="/game-portfolio" className="navbar-link">
                 GAME PORTFOLIO
               </Link>
             </div>
             <div className="end-col">
-              <Link to="/KaiChu/work" className="navbar-link">
+              <Link to="/work" className="navbar-link">
                 WORK
               </Link>
             </div>
             <div>
-              <Link to="/KaiChu" className="navbar-link">
+              <Link to="/" className="navbar-link">
                 BIO
               </Link>
             </div>

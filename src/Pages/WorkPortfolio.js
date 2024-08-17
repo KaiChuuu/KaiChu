@@ -11,7 +11,7 @@ function WorkPortfolio() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('KaiChu/data/workExperiences.json');
+        const response = await fetch('/data/workExperiences.json');
         const data = await response.json();
         setWorkExperiences(data);
       } catch (error) {
