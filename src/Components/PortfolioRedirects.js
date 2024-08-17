@@ -10,12 +10,12 @@ function PortfolioRedirects() {
           LEARN ABOUT ME
         </div>
         <div className="portfolio-links">
-          <Link to="/game-portfolio" className="nav-links">
+          <Link to="/KaiChu/game-portfolio" className="nav-links">
             <div className="game-portfolio-container">
               GAME PORTFOLIO
             </div>
           </Link>
-          <Link to="/work" className="nav-links">
+          <Link to="/KaiChu/work" className="nav-links">
             <div className="work-container">
               WORK
             </div>

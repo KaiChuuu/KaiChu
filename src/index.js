@@ -18,9 +18,9 @@ root.render(
         <Router>
           <ScrollToTop />
           <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/game-portfolio" element={<GamePortfolio/>} />
-            <Route path="/work" element={<WorkPortfolio/>} />
+            <Route path="/KaiChu" element={<Home/>} />
+            <Route path="/KaiChu/game-portfolio" element={<GamePortfolio/>} />
+            <Route path="/KaiChu/work" element={<WorkPortfolio/>} />
             <Route path="*" element={<Home/>} />
           </Routes>
         </Router>
