@@ -1,3 +1,3 @@
 # Kai Chu Personal Website
 
-https://kaichuuu.github.io/game-portfolio
+https://kaichuuu.github.io/KaiChu/
