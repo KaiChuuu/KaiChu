@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KaiChu/static/css/main.f26a09ac.css",
-    "main.js": "/KaiChu/static/js/main.890cb371.js",
+    "main.css": "/KaiChu/static/css/main.13b72c61.css",
+    "main.js": "/KaiChu/static/js/main.a6e3483a.js",
     "static/media/halo-bg.jpg": "/KaiChu/static/media/halo-bg.584a7a0236c2610a9877.jpg",
     "static/media/FiraCode.ttf": "/KaiChu/static/media/FiraCode.195a5963e89a1ff0cf03.ttf",
     "static/media/halo-bg-rocks.jpg": "/KaiChu/static/media/halo-bg-rocks.ca4d48520a84b31dd5df.jpg",
@@ -11,11 +11,11 @@
     "static/media/kai-image.jpg": "/KaiChu/static/media/kai-image.31dc8da5b19854eb8e55.jpg",
     "static/media/halo-bg-sky.jpg": "/KaiChu/static/media/halo-bg-sky.86a311caa8853321e3db.jpg",
     "index.html": "/KaiChu/index.html",
-    "main.f26a09ac.css.map": "/KaiChu/static/css/main.f26a09ac.css.map",
-    "main.890cb371.js.map": "/KaiChu/static/js/main.890cb371.js.map"
+    "main.13b72c61.css.map": "/KaiChu/static/css/main.13b72c61.css.map",
+    "main.a6e3483a.js.map": "/KaiChu/static/js/main.a6e3483a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f26a09ac.css",
-    "static/js/main.890cb371.js"
+    "static/css/main.13b72c61.css",
+    "static/js/main.a6e3483a.js"
   ]
 }
