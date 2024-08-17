@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3985155f.css",
-    "main.js": "/static/js/main.76cbd3f3.js",
+    "main.js": "/static/js/main.0e99362f.js",
     "static/media/halo-bg.jpg": "/static/media/halo-bg.584a7a0236c2610a9877.jpg",
     "static/media/FiraCode.ttf": "/static/media/FiraCode.195a5963e89a1ff0cf03.ttf",
     "static/media/halo-bg-rocks.jpg": "/static/media/halo-bg-rocks.ca4d48520a84b31dd5df.jpg",
@@ -12,10 +12,10 @@
     "static/media/halo-bg-sky.jpg": "/static/media/halo-bg-sky.86a311caa8853321e3db.jpg",
     "index.html": "/index.html",
     "main.3985155f.css.map": "/static/css/main.3985155f.css.map",
-    "main.76cbd3f3.js.map": "/static/js/main.76cbd3f3.js.map"
+    "main.0e99362f.js.map": "/static/js/main.0e99362f.js.map"
   },
   "entrypoints": [
     "static/css/main.3985155f.css",
-    "static/js/main.76cbd3f3.js"
+    "static/js/main.0e99362f.js"
   ]
 }
