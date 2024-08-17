@@ -1,3 +1,3 @@
 # Kai Chu Personal Website
 
-https://kaichuuu.github.io/KaiChu/
+https://kaichuuu.github.io/
