@@ -49,7 +49,7 @@ function GamePortfolio() {
       <div className="gameportfolio-container">
         <div className="timeline">
           {gamePortfolio.map((project, index) => (
-            <div index={index}>
+            <div key={index}>
               <div className="timeline-spacer"></div>
 
               <div className="container right">
@@ -66,7 +66,7 @@ function GamePortfolio() {
 
                     <div className="project-description">
                       {project.description.map((desc, index2) => (
-                        <div index={index2}>
+                        <div key={index2}>
                           <br/>
                           {desc.info}
                         </div>
@@ -75,7 +75,7 @@ function GamePortfolio() {
 
                     <div className="project-links">
                       {project.githubLink ? (
-                        <a alt="" className="project-link-col game-ref-links"href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                        <a alt="" className="project-link-col game-ref-links" href={project.githubLink} target="_blank" rel="noopener noreferrer">
                           GitHub
                         </a>
                       ): (<></>)}

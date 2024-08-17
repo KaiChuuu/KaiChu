@@ -65,12 +65,12 @@ function Home() {
             </div>
           </div>
           <div className="certification-link">
-            <a className="link-style" href="https://www.credly.com/users/kai-chu.621a5fe3">https://www.credly.com/users/kai-chu.621a5fe3</a>
+            <a alt="" className="link-style" href="https://www.credly.com/users/kai-chu.621a5fe3" target="_blank" rel="noopener noreferrer">Credly Profile</a>
           </div>
         </div>
         <div className="certification-body">
           {certifications.map((certification, index) => (
-            <div index={index}>
+            <div key={index}>
               <a alt="" target="_blank" rel="noopener noreferrer" href={certification.link}>
                 <div className="certification-block">
                   <div className="certification-block-img">

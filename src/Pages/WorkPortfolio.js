@@ -29,7 +29,7 @@ function WorkPortfolio() {
       <div className="workportfolio-container">
         <div className="timeline">
           {workExperience.map((experience, index) => (
-            <div index={index}>
+            <div key={index}>
               <div className="timeline-spacer"></div>
 
               <div className="container right">
@@ -46,7 +46,7 @@ function WorkPortfolio() {
 
                     <div className="job-description">
                       {experience.description.map((desc, index2) => (
-                        <div index={index2}>
+                        <div key={index2}>
                           <br/>
                           {desc.info}
                         </div>
