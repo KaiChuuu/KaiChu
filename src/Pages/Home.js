@@ -6,6 +6,7 @@ import haloBg from "../Assets/halo-bg.jpg";
 import kaiImg from "../Assets/kai-image.jpg";
 import Footer from "../Components/Footer";
 import PortfolioRedirects from "../Components/PortfolioRedirects";
+import TypingEffect from '../Components/TypingEffect';
 
 function Home() {
   const [certifications, setCertifications] = useState([]);
@@ -24,6 +25,8 @@ function Home() {
     fetchData();
   }, []);
 
+  const textItems = ['Full-stack Developer.', 'Game Developer.', 'Software Engineer.', 'Web Developer.'];
+
   return (
     <div className="Home">
 
@@ -33,7 +36,9 @@ function Home() {
           <div>Hi, I'm Kai Chu.</div>
           <div className="home-title-dynamic">
             <div>I'm a&nbsp;</div>
-            <div className="dynamic-role">Game Developer...</div>
+            <div className="dynamic-role">
+              <TypingEffect texts={textItems} typingSpeed={100} pauseTime={7000} />
+            </div>
           </div>
         </div>
         <div className="scroll-text">SCROLL DOWN</div>
