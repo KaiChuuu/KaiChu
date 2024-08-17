@@ -25,7 +25,7 @@
         "info": "Additionally, as the sole developer in the NA timezone, I managed on-call duties, resolving deployment issues, pipeline challenges, and debugging across the team’s projects."
       }
     ],
-    "companyLogo": "KaiChu/images/companies/sap-logo.png",
+    "companyLogo": "/images/companies/sap-logo.png",
     "companyLink": "https://me.sap.com/"
   },
   {
@@ -45,7 +45,7 @@
         "info": "Additionally, I contributed to designing frontend components in AdobeXD and worked on the development for the mobile app's administration, login, and signup pages."
       }
     ],
-    "companyLogo": "KaiChu/images/companies/aq-logo.png",
+    "companyLogo": "/images/companies/aq-logo.png",
     "companyLink": null
   },
   {
@@ -68,7 +68,7 @@
         "info": "I also focused on making the site easily maintainable and scalable, allowing non-developers to update content easily. This ensures long-term sustainability and ease of future maintenance for administrators."
       }
     ],
-    "companyLogo": "KaiChu/images/companies/vjga-logo.png",
+    "companyLogo": "/images/companies/vjga-logo.png",
     "companyLink": "https://www.vanjapangardeners.com/"
   }
 ]

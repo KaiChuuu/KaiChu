@@ -18,7 +18,7 @@
     ],
     "itchioLink": "https://happyteam.itch.io/overtime",
     "githubLink": "https://github.com/KaiChuuu/Overtime",
-    "gameImg": "KaiChu/images/games/overtime-logo.jpg",
+    "gameImg": "/images/games/overtime-logo.jpg",
     "imageMinWidth": "250px"
   },
   {
@@ -134,7 +134,7 @@
     ],
     "itchioLink": null,
     "githubLink": "https://github.com/KaiChuuu/Fall-Ball",
-    "gameImg": "KaiChu/images/games/fallball-logo.png",
+    "gameImg": "/images/games/fallball-logo.png",
     "imageMinWidth": "250px"
   }
 ]
