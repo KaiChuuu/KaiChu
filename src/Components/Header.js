@@ -7,17 +7,17 @@ function Header() {
   const [show, setShow] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  const controlNavbar = () => {
-    if (window.scrollY > lastScrollY) {
-      setShow(true); 
-    } else { 
-      setShow(false);  
-    }
-
-    setLastScrollY(window.scrollY); 
-  };
-
   useEffect(() => {
+    const controlNavbar = () => {
+      if (window.scrollY > lastScrollY) {
+        setShow(true); 
+      } else { 
+        setShow(false);  
+      }
+  
+      setLastScrollY(window.scrollY); 
+    };
+    
     window.addEventListener('scroll', controlNavbar);
     return () => {
        window.removeEventListener('scroll', controlNavbar);

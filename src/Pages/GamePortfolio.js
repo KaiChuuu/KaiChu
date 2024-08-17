@@ -14,7 +14,7 @@ function GamePortfolio() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/gamePortfolio.json');
+        const response = await fetch('KaiChu/data/gamePortfolio.json');
         const data = await response.json();
         setGamePortfolio(data);
       } catch (error) {

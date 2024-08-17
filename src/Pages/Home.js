@@ -14,7 +14,7 @@ function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/certifications.json');
+        const response = await fetch('KaiChu/data/certifications.json');
         const data = await response.json();
         setCertifications(data);
       } catch (error) {
