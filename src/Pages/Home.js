@@ -41,7 +41,7 @@ function Home() {
           <div className="home-title-dynamic">
             <div>I'm a&nbsp;</div>
             <div className="dynamic-role">
-              <TypingEffect texts={textItems} typingSpeed={100} pauseTime={7000} />
+              <TypingEffect texts={textItems} typingSpeed={100} pauseTime={3250} />
             </div>
           </div>
         </div>
