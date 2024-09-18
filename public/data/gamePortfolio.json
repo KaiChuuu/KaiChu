@@ -1,5 +1,24 @@
 [
   {
+    "startDate": "27/8/2024",
+    "endDate": "17/9/2024",
+    "gameName": "Driving Simulator",
+    "gameResources": "Unity, C#",
+    "duration": "",
+    "description": [
+      {
+        "info": "Designed a classic driving simulator to enjoy listening to music while on the road."
+      },
+      {
+        "info": "Key optimizations in this project include a floating origin system for seamless endless driving, a chunk loader with a managed pool for efficient asset handling, and procedurally generated trees optimally created in hundreds."
+      }
+    ],
+    "itchioLink": "https://happyteam.itch.io/driving-simulator",
+    "githubLink": "https://github.com/KaiChuuu/DrivingSimulator",
+    "gameImg": "/images/games/truck-sim-logo.jpg",
+    "imageMinWidth": "250px"
+  },
+  {
     "startDate": "1/11/2023",
     "endDate": "31/11/2023",
     "gameName": "Game Jam 2023",
