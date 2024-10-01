@@ -1,5 +1,27 @@
 [
   {
+    "startDate": "27/9/2024",
+    "endDate": "30/9/2024",
+    "gameName": "Rummagin Raccoon",
+    "gameResources": "Unity, C#",
+    "duration": "3 days",
+    "description": [
+      {
+        "info": "Participated in SpeedJam #6 with the theme Scavenger. With a teammate, developed a 2D puzzle game where you need to navigate your way to scavenge for trash."
+      },
+      {
+        "info": "I worked on the design and development of all the UI canvas panels. This included the setup of the public leaderboard and the speedrun timer."
+      },
+      {
+        "info": "I also designed some of the stages and developed the AI for the chasing crab using BFS."
+      }
+    ],
+    "itchioLink": "https://kotailri.itch.io/rummagin-raccoon",
+    "githubLink": null,
+    "gameImg": "/images/games/rummagin-raccoon-logo.png",
+    "imageMinWidth": "250px"
+  },
+  {
     "startDate": "27/8/2024",
     "endDate": "17/9/2024",
     "gameName": "Driving Simulator",
